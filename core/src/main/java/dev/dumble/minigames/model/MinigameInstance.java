@@ -20,6 +20,8 @@ public class MinigameInstance {
     private final UUID uuid;
 
     private final MinigameData data;
+    private final String map;
+
     private final List<Team> teams = new ArrayList<>();
 
     public void addTeam(Team team) {
