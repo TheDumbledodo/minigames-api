@@ -9,7 +9,7 @@ import java.util.concurrent.CompletableFuture;
 
 public interface IMinigameInstanceService {
 
-    CompletableFuture<UUID> create(MinigameInstance instance);
+    CompletableFuture<World> create(MinigameInstance instance);
 
     CompletableFuture<Void> close(MinigameInstance instance);
 

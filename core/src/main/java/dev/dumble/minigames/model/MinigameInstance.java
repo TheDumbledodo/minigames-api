@@ -17,7 +17,7 @@ import java.util.UUID;
 public class MinigameInstance {
 
     @Include
-    private final UUID uuid;
+    private final UUID id;
 
     private final MinigameData data;
     private final String map;
