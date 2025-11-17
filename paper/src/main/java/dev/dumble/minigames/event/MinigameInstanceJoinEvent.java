@@ -18,8 +18,6 @@ public class MinigameInstanceJoinEvent extends Event {
     private final MinigameInstance instance;
 
     public MinigameInstanceJoinEvent(Player player, World world, MinigameInstance instance) {
-        super(true);
-
         this.player = player;
         this.world = world;
         this.instance = instance;
