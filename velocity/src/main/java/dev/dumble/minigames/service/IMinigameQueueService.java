@@ -17,7 +17,7 @@ public interface IMinigameQueueService {
 
     void beginMatch(IMinigameQueue queue);
 
-    List<IMinigameQueue> getQueues(MinigameKey key);
+    List<IMinigameQueue> getQueues(MinigameData data);
 
     List<IMinigameQueue> getQueues();
 

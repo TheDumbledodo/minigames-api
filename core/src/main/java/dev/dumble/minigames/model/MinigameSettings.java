@@ -1,15 +1,13 @@
 package dev.dumble.minigames.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
 import java.util.Set;
 
 @Getter @Setter
 @ToString
 @AllArgsConstructor
+@EqualsAndHashCode
 public class MinigameSettings {
 
     private int maxPlayers;
