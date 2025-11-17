@@ -9,7 +9,7 @@ import org.jetbrains.annotations.NotNull;
 
 @Getter
 @RequiredArgsConstructor
-public class MinigameInstanceDeleteEvent extends Event {
+public class MinigameInstanceCloseEvent extends Event {
 
     private static final HandlerList HANDLER_LIST = new HandlerList();
 
