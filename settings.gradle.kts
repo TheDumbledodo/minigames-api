@@ -8,4 +8,4 @@ dependencyResolutionManagement {
 
 
 rootProject.name = "minigames-api"
-include("core", "paper", "velocity")
+include("common", "host", "proxy")

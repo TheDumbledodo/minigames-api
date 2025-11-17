@@ -4,7 +4,7 @@ import dev.dumble.minigames.controller.IMinigameQueueController;
 import dev.dumble.minigames.registry.IMinigameRegistry;
 import dev.dumble.minigames.service.IMinigameQueueService;
 
-public interface IMinigamesVelocity {
+public interface IMinigamesProxy {
 
     IMinigameQueueController getQueueController();
 

@@ -5,7 +5,8 @@ plugins {
 }
 
 dependencies {
-    implementation(project(":core"))
+    implementation(project(":common"))
 
-    compileOnly(libs.paper)
+    compileOnly(libs.velocity)
+    annotationProcessor(libs.velocity)
 }

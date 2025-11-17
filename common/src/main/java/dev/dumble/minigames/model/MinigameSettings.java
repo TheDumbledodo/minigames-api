@@ -1,12 +1,13 @@
 package dev.dumble.minigames.model;
 
 import lombok.*;
+import lombok.EqualsAndHashCode.Exclude;
 
 import java.util.Set;
 
 @Getter @Setter
 @ToString
-@AllArgsConstructor
+@Builder
 @EqualsAndHashCode
 public class MinigameSettings {
 
@@ -14,9 +15,6 @@ public class MinigameSettings {
     private int startingPlayers;
     private int teamSize;
 
+    @Exclude
     private Set<String> maps;
-
-    public MinigameSettings(int maxPlayers, int startingPlayers, int teamSize, String... maps) {
-        this(maxPlayers, startingPlayers, teamSize, Set.of(maps));
-    }
 }
