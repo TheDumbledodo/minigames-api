@@ -15,21 +15,21 @@ public final class MinigameSettings {
      * <p>
      * This represents the upper limit of participants.
      */
-    public static final MinigameSetting<Integer> MAX_PLAYERS = new MinigameSetting<>("max_players");
+    public static final MinigameSetting<Integer> MAX_PLAYERS = new MinigameSetting<>("max_players", 2);
 
     /**
      * The number of players that start the minigame initially.
      * <p>
      * This must be lower than {@link #MAX_PLAYERS}
      */
-    public static final MinigameSetting<Integer> STARTING_PLAYERS = new MinigameSetting<>("starting_players");
+    public static final MinigameSetting<Integer> STARTING_PLAYERS = new MinigameSetting<>("starting_players", 2);
 
     /**
      * The number of players per team.
      * <p>
      * If this is 1, the minigame is free-for-all. Values greater than 1 indicate team-based gameplay.
      */
-    public static final MinigameSetting<Integer> PLAYERS_PER_TEAM = new MinigameSetting<>("players_per_team");
+    public static final MinigameSetting<Integer> PLAYERS_PER_TEAM = new MinigameSetting<>("players_per_team", 1);
 
     /**
      * The set of available map names for this minigame.
