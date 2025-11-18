@@ -1,7 +1,7 @@
 package dev.dumble.minigames.controller;
 
 import com.velocitypowered.api.proxy.Player;
-import dev.dumble.minigames.model.MinigameData;
+import dev.dumble.minigames.model.minigame.MinigameData;
 
 public interface IMinigameQueueController {
 

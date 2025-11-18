@@ -1,6 +1,6 @@
 package dev.dumble.minigames.service;
 
-import dev.dumble.minigames.model.*;
+import dev.dumble.minigames.model.minigame.MinigameData;
 import dev.dumble.minigames.model.queue.IMinigameQueue;
 import dev.dumble.minigames.model.queue.QueueEntry;
 import dev.dumble.minigames.model.queue.QueueJoinResult;

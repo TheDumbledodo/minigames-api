@@ -30,7 +30,6 @@ tasks {
 
         mergeServiceFiles()
         exclude("*.properties")
-        minimize()
     }
 
     assemble {

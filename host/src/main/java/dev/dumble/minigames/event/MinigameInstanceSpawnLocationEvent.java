@@ -1,6 +1,6 @@
 package dev.dumble.minigames.event;
 
-import dev.dumble.minigames.model.MinigameInstance;
+import dev.dumble.minigames.model.minigame.MinigameInstance;
 import lombok.Getter;
 import lombok.Setter;
 import org.bukkit.Location;

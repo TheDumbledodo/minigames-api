@@ -1,6 +1,6 @@
 package dev.dumble.minigames.model.queue;
 
-import dev.dumble.minigames.model.MinigameData;
+import dev.dumble.minigames.model.minigame.MinigameData;
 
 import java.util.Collection;
 import java.util.Set;

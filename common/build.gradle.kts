@@ -5,5 +5,6 @@ plugins {
 }
 
 dependencies {
-    compileOnly(libs.fastjson2)
+    compileOnly(libs.checkerframework)
+    compileOnly(libs.jackson.databind)
 }

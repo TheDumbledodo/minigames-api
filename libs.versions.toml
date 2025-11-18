@@ -7,4 +7,5 @@ velocity = "3.4.0-SNAPSHOT"
 paper = { group = "io.papermc.paper", name = "paper-api", version.ref = "paper" }
 velocity = { group = "com.velocitypowered", name = "velocity-api", version.ref = "velocity" }
 
-fastjson2 = { group = "com.alibaba.fastjson2", name = "fastjson2", version = "2.0.60" }
+checkerframework = { group = "org.checkerframework", name = "checker-qual", version = "3.42.0" }
+jackson-databind = { group = "com.fasterxml.jackson.core", name = "jackson-databind", version = "2.20.1" }

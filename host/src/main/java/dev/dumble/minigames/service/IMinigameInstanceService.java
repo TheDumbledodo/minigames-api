@@ -1,6 +1,6 @@
 package dev.dumble.minigames.service;
 
-import dev.dumble.minigames.model.MinigameInstance;
+import dev.dumble.minigames.model.minigame.MinigameInstance;
 import org.bukkit.World;
 
 import java.util.Optional;
