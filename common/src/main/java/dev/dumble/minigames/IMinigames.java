@@ -1,5 +1,6 @@
 package dev.dumble.minigames;
 
+import dev.dumble.minigames.mongo.IMongoAdapter;
 import dev.dumble.minigames.redis.IRedisPacketService;
 import dev.dumble.minigames.redis.packet.handler.IPacketHandler;
 import dev.dumble.minigames.redis.packet.registry.IPacketRegistry;
@@ -11,4 +12,6 @@ public interface IMinigames {
     IPacketHandler getPacketHandler();
 
     IPacketRegistry getPacketRegistry();
+
+    IMongoAdapter getMongoAdapter();
 }

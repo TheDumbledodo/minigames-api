@@ -1,6 +1,7 @@
 [versions]
 paper = "1.21.10-R0.1-SNAPSHOT"
 velocity = "3.4.0-SNAPSHOT"
+mongodb = "5.6.1"
 
 [libraries]
 
@@ -9,3 +10,6 @@ velocity = { group = "com.velocitypowered", name = "velocity-api", version.ref =
 
 checkerframework = { group = "org.checkerframework", name = "checker-qual", version = "3.42.0" }
 jackson-databind = { group = "com.fasterxml.jackson.core", name = "jackson-databind", version = "2.20.1" }
+
+mongodb-driver-bom = { group = "org.mongodb", name = "mongodb-driver-bom", version.ref = "mongodb" }
+mongodb-driver-sync = { group = "org.mongodb", name = "mongodb-driver-sync" }
