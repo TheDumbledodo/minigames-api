@@ -2,6 +2,7 @@ package dev.dumble.minigames.controller;
 
 import dev.dumble.minigames.model.minigame.MinigameInstance;
 import org.bukkit.World;
+import org.bukkit.entity.Player;
 
 import java.util.Optional;
 import java.util.UUID;
@@ -13,7 +14,11 @@ public interface IMinigameInstanceController {
 
     CompletableFuture<Void> close(MinigameInstance instance);
 
+    Optional<MinigameInstance> getInstanceByPlayer(Player player);
+
     Optional<MinigameInstance> getInstanceByPlayer(UUID playerId);
+
+    Optional<UUID> getInstanceIdByPlayer(UUID playerId);
 
     Optional<MinigameInstance> getInstance(UUID uuid);
 

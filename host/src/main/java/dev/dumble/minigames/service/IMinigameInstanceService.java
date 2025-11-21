@@ -15,6 +15,8 @@ public interface IMinigameInstanceService {
 
     Optional<MinigameInstance> getInstanceByPlayer(UUID playerId);
 
+    Optional<UUID> getInstanceIdByPlayer(UUID playerId);
+
     Optional<MinigameInstance> getInstance(UUID uuid);
 
     Optional<World> getWorldByMinigameId(UUID minigameId);
